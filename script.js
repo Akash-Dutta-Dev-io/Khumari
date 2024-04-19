@@ -109,7 +109,7 @@ const song1 = new Audio('./songs/Heroine - Neelkamal Singh (1).mp3');
 const song2 = new Audio('./songs/Laal Peeli Akhiyaan.mp3');
 const song3 = new Audio('./songs/Teri Baaton Mein Aisa Uljha Jiya.mp3');
 const song4 = new Audio('./songs/Why-This-Kolaveri-Di.mp3');
-const song5 = new Audio('./songs/Khumari.flac');
+// const song5 = new Audio('./songs/Khumari.flac');
 
 // selecting elements
 const prevBtn = document.querySelector('.previous');
@@ -123,7 +123,7 @@ const songs = [
     { ele: song2, audioName: 'Laal Peeli Akhiyan' },
     { ele: song3, audioName: 'Teri baton mein aisa uljha jiya' },
     { ele: song4, audioName: 'why-this-kolaveri-di' },
-    { ele: song5, audioName: 'Khumari' }
+    // { ele: song5, audioName: 'Khumari' }
 ];
 
 for (const song of songs) {
